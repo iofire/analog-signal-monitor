@@ -1,0 +1,27 @@
+#ifndef __CONFIG_H__
+#define __CONFIG_H__
+
+#include "pinout.h"
+
+// Use of Board Resources
+#define FAULT_LED_PIN PINOUT_LED_01_PIN
+#define FAULT_RELAY_PIN PINOUT_RELAY_02_PIN
+#define FAULT_INPUT_PIN PINOUT_INPUT_01_PIN
+
+#define ALARM_RELAY_PIN PINOUT_RELAY_01_PIN
+#define ALARM_INPUT_PIN PINOUT_INPUT_02_PIN
+
+#define COMISSION_TOOL_PIN PINOUT_COMISSION_TOOL_PIN
+#define TEST_BUTTON_PIN PINOUT_TEST_BUTTON_PIN
+
+// Polarity Configuration
+#define FAULT_ACTIVE_POLARITY LOW
+#define ALARM_ACTIVE_POLARITY HIGH
+
+// Analog Configuration
+#define ANALOG_GAIN 1
+
+// Warm-up Time
+#define SENSOR_WARMUP_TIME 5000
+
+#endif // __CONFIG_H__
