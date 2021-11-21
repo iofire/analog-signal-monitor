@@ -1,0 +1,14 @@
+#ifndef __PINOUT_H_ 
+#define __PINOUT_H_
+
+// Pins
+#define PINOUT_RELAY_01_PIN 2
+#define PINOUT_RELAY_02_PIN 3
+#define PINOUT_LED_BRD_PIN 13
+#define PINOUT_LED_01_PIN 18
+#define PINOUT_TEST_BUTTON_PIN 19
+#define PINOUT_COMISSION_TOOL_PIN 8
+#define PINOUT_INPUT_01_PIN A0
+#define PINOUT_INPUT_02_PIN A1
+
+#endif //__PINOUT_H__
